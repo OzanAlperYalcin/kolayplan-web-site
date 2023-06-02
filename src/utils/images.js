@@ -1,0 +1,30 @@
+export const images = {
+    anamnesis: process.env.REACT_APP_API_URL+"/images/specs/anamnesis.png",
+    announce: process.env.REACT_APP_API_URL+"/images/specs/announce.png",
+    balance: process.env.REACT_APP_API_URL+"/images/specs/balance.png",
+    featuresBanner: process.env.REACT_APP_API_URL+"/images/specs/featuresBanner.png",
+    pdf: process.env.REACT_APP_API_URL+"/images/specs/pdf.png",
+    program: process.env.REACT_APP_API_URL+"/images/specs/program.png",
+    results: process.env.REACT_APP_API_URL+"/images/specs/results.png",
+    schedules: process.env.REACT_APP_API_URL+"/images/specs/schedules.png",
+    sms: process.env.REACT_APP_API_URL+"/images/specs/sms.png",
+    tracker: process.env.REACT_APP_API_URL+"/images/specs/tracker.png",
+    social: process.env.REACT_APP_API_URL+"/images/specs/social.png",
+    slides: [
+        process.env.REACT_APP_API_URL+"/images/slider/1.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/2.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/3.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/4.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/5.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/6.jpg",
+        process.env.REACT_APP_API_URL+"/images/slider/7.jpg",
+    ],
+    testimonials: [
+        process.env.REACT_APP_API_URL+"/images/testimonials/1.png",
+        process.env.REACT_APP_API_URL+"/images/testimonials/2.png",
+        process.env.REACT_APP_API_URL+"/images/testimonials/3.png",
+        process.env.REACT_APP_API_URL+"/images/testimonials/4.png",
+        process.env.REACT_APP_API_URL+"/images/testimonials/5.png",
+        process.env.REACT_APP_API_URL+"/images/testimonials/6.png",
+    ]
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sidebar {
+        @apply fixed w-full h-full top-14 bg-white/90 opacity-0 invisible translate-y-20 transition-all duration-500 ease-in-out
+    }
+    .sidebar.active {
+        @apply opacity-100 visible translate-y-0 transition-all duration-500 ease-in-out
+    }
+    .btn-primary {
+        @apply p-2.5 font-medium bg-lime-500 hover:bg-lime-500/80 text-white font-arista rounded-xl transition-all duration-300
+    }
+}
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        height: 100%;
+        background-color: #fafafa;
+        /* scroll-behavior: smooth; */
+        /* font-family: 'Arista-Pro', sans-serif; */
+    }
+}
+
+@font-face {
+    font-family: "Arista-Pro";
+    src: url("./fonts/ARISTA-PRO.ttf");
+}
